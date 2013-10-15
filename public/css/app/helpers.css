@@ -1,0 +1,106 @@
+/*
+* Helpers
+*/
+.relativier {
+   position: relative;
+}
+.clearer {
+	clear:both;
+}
+.centerer {
+    text-align: center;
+}
+.right {
+    text-align:right;
+}
+.justify {
+	text-align:justify;
+	text-indent: 1.5em;
+}
+.left {
+	text-align:left;
+}
+.borderer {
+    border: 1px solid #f00;
+}
+.no-border {
+	border:none !important;
+}
+.hidden {
+    display: none;
+}
+.hidden-imp {
+    display: none !important;
+}
+
+.blocker {
+    display: block;
+}
+
+.inliner {
+    display: inline;
+}
+
+.nobrer {
+    white-space: nowrap;
+}
+
+.overflover {
+    overflow: hidden;
+}
+
+.smaller {
+    font-size: 90%;
+}
+.bolder {
+	font-weight:bolder;
+}
+.underliner {
+	text-decoration:underline;
+}
+
+.grayer {
+    color: #a3a3a3;
+}
+
+.clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow:hidden;
+
+}
+.clearfix {
+   display: block;
+
+}
+.clearfix {
+	//display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.floater {
+   float: left;
+   _clear: right;
+}
+
+.floater-right {
+   float: right;
+   _clear: left;
+} 
+
+/* Clear */
+.clear:after {content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clear {display: inline-block;}
+
+.clear {display: block;}
+
+.noselect {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
